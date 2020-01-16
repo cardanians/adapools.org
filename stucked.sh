@@ -2,6 +2,7 @@
 #
 # Created by Uruncle @ https://adage.app Cardano Stake Pool
 # Modified by https://adapools.org/
+#
 # Disclaimer:
 #
 #  The following use of shell script is for demonstration and understanding
@@ -11,7 +12,7 @@
 #
 # You need "screen" - first, execute command: screen -dmS ada sh
 # Then open another screen window (execute command: screen) and run in this screen this script: ./where/is/stored/stucked.sh
-# Script monitors your node
+# Script monitors your node, when is stucked, after restart; when new block, auto notify to adapools.org
 #
 # Get your "YOUR_KEY" = https://github.com/cardanians/adapools.org/blob/master/send_tip.sh
 #
