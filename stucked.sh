@@ -5,10 +5,10 @@
 #
 # Disclaimer:
 #
-#  The following use of shell script is for demonstration and understanding
-#  only, it should *NOT* be used at scale or for any sort of serious
-#  deployment, and is solely used for learning how the node and blockchain
-#  works, and how to interact with everything.
+# The following use of shell script is for demonstration and understanding
+# only, it should *NOT* be used at scale or for any sort of serious
+# deployment, and is solely used for learning how the node and blockchain
+# works, and how to interact with everything.
 #
 # You need "screen" - first, execute command: screen -dmS ada sh
 # Then open another screen window (execute command: screen) and run in this screen this script: ./where/is/stored/stucked.sh
@@ -23,6 +23,7 @@ JCLI_PORT=3100
 LAST_BLOCK=""
 START_TIME=$SECONDS
 RESTART_GT=300
+# + dont forgot change "YOUR_KEY", config.yaml, secret.yaml location bellow
 
 while true
 do
