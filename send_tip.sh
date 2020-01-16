@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# You need created account there: https://adapools.org/
+# You need created account there: https://adapools.org/ (https://adapools.org/register)
 # Sign In and add your node to monitoring - you need insert node_id. After submit you will receive "YOUR_KEY"
 #
 # Call this script ONLY when you receive new block (typically add it to "stucked monitors" etc.
