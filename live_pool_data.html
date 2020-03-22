@@ -1,0 +1,17 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$.getJSON('https://adapools.org/cache/pools/ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782.json', function(data) {
+$.each( data, function( i, val ) { $( '#' + data.id + '_' + i ).text(val); });
+});
+</script>
+
+My pool addr.: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_id"></span><br>
+Tag: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_tag"></span><br>
+Name: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_name"></span><br>
+Total Stake: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_total_stake"></span><br>
+Last Epoch Rewards: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_rewards_value_for_stakers"></span> Ada<br>
+Tax Fixed: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_tax_fix"></span>%<br>
+ROI: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_roi"></span>%<br>
+Share: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_share"></span>%<br>
+Rank: <span id="ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782_rank"></span><br>
+More info on <a href="https://adapools.org/ef506f96187005334e552d328b0e154a141d64d25f1e1e0dcc08afe939c6b782">AdaPools</a>.
