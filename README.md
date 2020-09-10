@@ -7,3 +7,6 @@ https://forum.cardano.org/t/cardano-node-topology-generator/35109
 
 - extended meta example:
 https://a.adapools.org/extended-example
+
+- grafana alternative:
+https://adapools.org/connect/
