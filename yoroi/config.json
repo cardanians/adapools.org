@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ADApools.org",
+    "sub": "default ranking",
+    "url": null,
+    "id": "adapools"
+  },
+  {
+    "name": "Daedalus",
+    "sub": "non-myoptic ranking",
+    "url": "https://a.adapools.org/yoroi-api/daedalus-bridge.json",
+    "id": "daedalus"
+  }
+]
