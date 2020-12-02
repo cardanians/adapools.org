@@ -1,15 +1,15 @@
 # SMASH policy ADApools.org
 
-One group-one pool is determined by choosing a non-saturated pool from such a group prior to the 93% saturation mark. Thus, any group shall have one pool represented in the listing at once. The one pool showing is then prioritized over other pools in that said group based on:
+One group-one pool is determined by choosing a non-saturated pool from such a group prior to the 96% saturation mark. Thus, any group shall have one pool represented in the listing at once. The one pool showing is then prioritized over other pools in that said group based on:
 
 * the soonest pool registration date
-* less than 93% saturation level
+* less than 96% saturation level
 * and actual ranking position based on adapools ranking algorithm
 
 Therefore, pool that is not showing from the group set up is based on
 
 * younger pool registration date than the one pool showing
-* higher saturation point larger than 93%
+* higher saturation point larger than 96%
 * lower ranking position than the one pool showing
 
 Ranking of individual pools is determined by the "score formula" (subject to change) which can be accessed on https://adapools.org/score page for reference and peer review. Feedback welcome.
