@@ -1,0 +1,13 @@
+# Methodology
+
+- Cardano Donuts’ primary goal is to analyse and visualise network data to understand it more intimately. It should be a starting point for you to explore further - not an end in itself. You are more than welcome to interpret these data sets and further analyse/scrutinise per your requirements/desires to arrive at your own conclusions. This information is suited for educational purposes and not intended as an investment advice in any way. You are encouraged to do your own research at all times.
+
+- Groups are predominantly based on the marketing/official grouping efforts of known associations and/or if multiple anchor points are introduced/matched that establishes such links. These thresholds are subject to change and would be reflected on this page. Operators can create a claim to correct any errors/inaccuracies, provided substantial evidence is put forward to make a sound case beyond reasonable doubt. Such information or reasoning would be made available to network participants at large for peer review whenever requested. 
+
+- These groups are available on https://adapools.org/groups page for peer review. You can also find a live .json file via the following link https://js.adapools.org/groups.json to verify actual pairings and visuals match up. While some parts are automated, there is a manual input needed to keep track of it. These adjustments are made periodically on the go. Hence, there may be some minor discrepancies in % and other numbers/groupings momentarily. Small margin of error is expected. Thank you for your kind patience as we try to eliminate inefficiencies daily. If you do notice anything out of ordinary - feel free to flag it intentionally.
+
+- Further, pool operators can make a claim against 'fake' pools (and thus incorrect groupings) that will be automatically removed from the group listings once such a case is confirmed. This includes ticker disputes and other blatant attempts to scam/impersonate real world operators designed to deceive delegators. For more information visit https://adapools.org/ticker-disputes page.
+
+- If you are inquiring about default rankings, please refer to then to ADApools official SMASH policy via this link: https://github.com/cardanians/adapools.org/blob/master/smash/policy.md
+
+- As always, this information is intended to elevate overall community experience. As such, it is never ending work in progress. Should you ever be in doubt or have reservations about any of these processes, please, do not hesitate to reach out. Your constructive input and perspective is always welcome and desired. Reach out via https://t.me/adapools_ops telegram group.
