@@ -15,7 +15,7 @@
 */
 
 /*
-uncomment this part, if you want repost only notifications with blocks, epochsum, dailysum
+//uncomment this part, if you want repost only notifications with blocks, epochsum, dailysum
 
 	if(!$_POST[msg] or !in_array($_POST[type],array("blocks","epochsum","dailysum")))
 		die();
