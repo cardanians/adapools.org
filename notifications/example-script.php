@@ -17,7 +17,7 @@
 /*
 //uncomment this part, if you want repost only notifications with blocks, epochsum, dailysum
 
-	if(!$_POST[msg] or !in_array($_POST[type],array("blocks","epochsum","dailysum")))
+	if(!$_POST['msg'] or !in_array($_POST['type'],array("blocks","epochsum","dailysum")))
 		die();
 */ 
 
@@ -40,7 +40,7 @@
   
 print_r(bot('sendMessage',[
 		 'chat_id'=>-1001308187, // replace with your chat id
-		 'text'=>$_POST[msg],
+		 'text'=>$_POST['msg'],
 		 'parse_mode' => 'HTML'
 ]));
 	
