@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "43066127-5b84-4607-98e3-5810233ed809",
+		"name": "adapools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "delegator list",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/delegator/list/{{poolId}}",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"delegator",
+						"list",
+						"{{poolId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pool detail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/pool/detail/{{poolId}}",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"pool",
+						"detail",
+						"{{poolId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reward stakeaddr",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/reward/stakeaddr/{{stakeAddr}}",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"reward",
+						"stakeaddr",
+						"{{stakeAddr}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{api-key}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "api-key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api-key",
+			"value": "some-api-key"
+		},
+		{
+			"key": "api",
+			"value": "https://api.adapools.org/v1"
+		},
+		{
+			"key": "stakeAddr",
+			"value": "stake1.........."
+		},
+		{
+			"key": "poolId",
+			"value": "pool1..........."
+		}
+	]
+}
