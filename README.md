@@ -2,11 +2,12 @@
 
 The independent tool for your better staking /decision-making. Still online, updated and ready to help. For all Cardanians https://adapools.org
 
-- topology generator:
-https://forum.cardano.org/t/cardano-node-topology-generator/35109
-
 - extended meta example:
 https://a.adapools.org/extended-example
 
-- grafana alternative:
-https://adapools.org/connect/
+- API
+https://github.com/cardanians/adapools.org/blob/master/adapools.postman_collection.json
+
+- topology generator:
+https://forum.cardano.org/t/cardano-node-topology-generator/35109
+
